@@ -1,0 +1,30 @@
+<div class="col-lg-12">
+	<div class="panel panel-default">
+		<div class="panel-heading">Incluir Cliente</div>
+		<!-- /.panel-heading -->
+		<div class="panel-body">
+			<div class="row">
+            	<div class="col-lg-12">
+            		<div class="form-group">
+                        <label>*Nome / Razao Social:</label>
+                        <input class="form-control" ng-model="cliente.nomeRazao">
+                    </div>
+                    <div class="form-group">
+                        <label>*Cpf / CNPJ:</label>
+                        <input class="form-control" ng-model="cliente.cpfCnpj">
+                    </div>
+                    <div class="form-group">
+                        <label>*E-mail</label>
+                        <input class="form-control" ng-model="cliente.email">
+                    </div>
+            	</div>
+           	</div>
+		</div>
+		<div class="panel-footer  text-right">
+            <button type="button" class="btn btn-primary"  ng-click="cancelar()"><i class="fa fa-times-circle"></i> Cancelar</button>
+            <button type="button" class="btn btn-primary"  ng-click="salvar()"><i class="fa fa-check-circle"></i> Salvar</button>
+        </div>
+	</div>
+</div>
+
+
